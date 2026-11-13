@@ -10,7 +10,7 @@ From-scratch implementations of core data structures and optimal algorithmic sol
 
 #### `Data-Structures/` (Built From Scratch)
 * **`linked_list_queue.cpp`**: Custom pointer-based `Queue` and `QueueNode` implementation featuring `O(1)` `enqueue`/`dequeue`, size tracking, and an explicit `~Queue()` destructor to prevent memory leaks.
-* **`array_queue.cpp`**: Contiguous array-backed `Queue` implementation optimized for cache locality and level-indexed BFS traversals.
+* **`array_deque.cpp`**: Contiguous array-backed `Queue` implementation optimized for cache locality and level-indexed BFS traversals.
 * **`binary_tree_codec.cpp`**: Preorder DFS tree serialization and deserialization engine using `#` null markers and `std::stringstream` token parsing.
 * **`custom_graph.cpp`**: Custom `Graph` class implementation modeling vertex/edge relationships directly in C++.
 
@@ -18,6 +18,7 @@ From-scratch implementations of core data structures and optimal algorithmic sol
 * **`101_symmetric_tree_serialization.c`**: Structural binary tree symmetry check using sentinel-encoded (`-999999`) preorder traversal and recursive subtree inversion.
 * **`111_minimum_depth_binary_tree_bfs.cpp`**: Level-order BFS traversal powered by the custom linked-list `Queue` with early leaf-node termination.
 * **`297_serialize_deserialize_binary_tree.cpp`**: `O(N)` time & space recursive binary tree codec.
+* **`445_add_two_numbers_ii_stack.c`**: Linked-list addition using a custom pointer-based `stack` to reverse node order without modifying input values.
 * **`674_longest_continuous_increasing_subsequence.c`**: Single-pass `O(N)` time, `O(1)` space contiguous subarray scan.
 * **`1791_find_center_of_star_graph.cpp`**: Graph center identification using custom `Graph` node/edge tracking.
 
